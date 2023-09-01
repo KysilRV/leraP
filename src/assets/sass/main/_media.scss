@@ -1,0 +1,466 @@
+@media (max-width: 1350px) {
+    .title {
+        font-size: 42px;
+    }
+    .main {
+        &__info {
+            padding-left: 100px;
+            width: calc(50% - 150px);
+        }
+        &__logo {
+            margin-right: 30px;
+        }
+        &__item {
+            font-size: 15px;
+            margin-right: 10px;
+            &:nth-child(5) {
+                margin-right: 0;
+            }
+        }
+        &__title {
+            font-size: 52px;
+        }
+        &__block {
+            &:nth-child(1) {
+                margin-right: 50px;
+            }
+            &-text {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .about {
+        &__img {
+            margin-right: 60px;
+            height: 520px;
+            object-fit: contain;
+        }
+        &__subttle {
+            font-size: 21px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+    }
+    .item {
+        &-text, &-more {
+            font-size: 16px;
+        }
+    }
+
+    .course {
+        &__subttle {
+            font-size: 21px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .main {
+        background: url('../img/black-bg.png') center center/cover no-repeat;
+        &__info {
+            height: 550px;
+            width: 100%;
+            padding: 30px 100px;
+        }
+        &__item {
+            font-size: 16px;
+            margin-right: 25px;
+            &:nth-child(5) {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .about {
+        padding: 50px 0;
+        &__img {
+            margin-right: 40px;
+        }
+        &__subttle {
+            font-size: 20px;
+        }
+        &__text {
+            font-size: 19px;
+        }
+    }
+
+    .item {
+        &:nth-child(1) {
+            margin-top: 20px;
+        }
+        &-text, &-more {
+            font-size: 17px;
+        }
+    }
+
+    .block {
+        &-text {
+            font-size: 15px;
+        }
+    }
+
+    .course {
+        padding: 50px 0;
+        &__info {
+            margin-right: 40px;
+        }
+        &__subttle {
+            font-size: 20px;
+        }
+        &__text {
+            font-size: 19px;
+        }
+    }
+
+    .price {
+        padding: 50px 0;
+        &__blocks {
+            margin-right: 40px;
+        }
+        &__price {
+            font-size: 40px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+        &__text {
+            font-size: 19px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .title {
+        font-size: 34px;
+    }
+
+    .main {
+        &__info {
+            height: 500px;
+        }
+        &__title {
+            margin-top: 80px;
+            font-size: 48px;
+        }
+    }
+
+    .about {
+        &__img {
+            height: 350px;
+            margin-right: 15px;
+        }
+        &__subtitle {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        &__text {
+            font-size: 15px;
+        }
+    }
+    .up, .down {
+        margin-top: 15px;
+    }
+    .block {
+        &-text {
+            font-size: 14px;
+        }
+    }
+    .item {
+        margin-top: 10px;
+        &-check {
+            width: 15px;
+            height: 15px;
+        }
+        &-text, &-more {
+            font-size: 15px;
+        }
+    }
+
+    .course {
+        &__info {
+            margin-right: 15px;
+        }
+        &__subtitle {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        &__text {
+            font-size: 15px;
+        }
+        &__block {
+            &-icon {
+                width: 36px;
+                height: 36px;
+                margin-right: 10px;
+            }
+            &-text {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .price {
+        &__blocks {
+            margin-right: 25px;
+        }
+        &__price {
+            font-size: 34px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &__text {
+            font-size: 16px;
+        }
+        &__socials {
+            margin-top: 55px;
+        }
+        &__block  {
+            padding: 20px;
+        }
+        &__social {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .main {
+        &__info {
+            height: 400px;
+            padding: 20px 50px;
+        }
+        &__nav {
+            justify-content: space-between;
+        }
+        &__item {
+            display: none;
+        }
+        &__burger {
+            display: flex;
+        }
+        &__title {
+            margin-top: 45px;
+            font-size: 38px;
+        }
+        &__wrapper {
+            margin-top: 25px;
+        }
+        &__block {
+            &:nth-child(1) {
+                margin-right: 15px;
+            }
+            &-text {
+                font-size: 14px;
+            }
+        }
+        &__video {
+            margin-top: 40px;
+            &-text {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .about {
+        &__img {
+            display: none;
+        }
+        &__subtitle {
+            font-size: 17px;
+            margin-top: 15px;
+        }
+    }
+
+    .course {
+        &__info {
+            margin-right: 0;
+        }
+        &__img {
+            display: none;
+        }
+        &__subtitle {
+            font-size: 17px;
+            margin-top: 15px;
+        }
+        &__block {
+            padding: 5px 10px;
+            &-icon {
+                width: 24px;
+                height: 24px;
+                margin-right: 10px;
+            }
+            &-text {
+                font-size: 10px;
+            }
+        }
+    }
+
+    .block {
+        margin-right: 20px;
+        &-text{
+            font-size: 12px;
+        }
+    }
+
+    .price {
+        &__wrapper {
+            flex-direction: column-reverse;
+            align-items: flex-start;
+        }
+        &__info {
+            padding: 0;
+            margin-top: 25px;
+            width: 100%;
+        }
+        &__blocks {
+            margin-right: 0px;
+        }
+        &__price {
+            font-size: 32px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+        &__socials {
+            margin-top: 25px;
+        }
+        &__block  {
+            padding: 15px;
+            margin-top: 30px;
+        }
+        &__social {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 85%;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .main {
+        &__info {
+            height: 360px;
+            padding: 15px;
+        }
+        &__title {
+            margin-top: 25px;
+            font-size: 28px;
+        }
+        &__wrapper {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+        &__block {
+            &-white {
+                padding: 5px;
+            }
+            &:nth-child(1) {
+                margin-right: 0;
+            }
+            &:nth-child(2) {
+                margin-top: 15px;
+            }
+        }
+        &__video {
+            margin-top: 20px;
+            &-circle {
+                width: 42px;
+                height: 42px;
+            }
+            &-text {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .about {
+        padding: 25px 0;
+        &__subtitle {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    }
+    .block {
+        margin-right: 20px;
+    }
+    .up, .down {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .course {
+        padding: 25px 0;
+        &__subtitle {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        &__plus {
+            display: none;
+        }
+    }
+    .price {
+        padding: 25px 0;
+        &__info {
+            margin-top: 15px;
+        }
+        &__price {
+            font-size: 28px;
+        }
+        &__descr {
+            font-size: 10px;
+            margin-right: 20px;
+        }
+        &__text {
+            font-size: 19px;
+        }
+        &__socials {
+            margin-top: 15px;
+        }
+        &__social {
+            width: 36px;
+            height: 36px;
+        }
+        &__block  {
+            padding: 10px;
+            margin-top: 15px;
+        }
+    }
+}
