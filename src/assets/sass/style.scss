@@ -1,0 +1,33 @@
+@import './main/fonts';
+@import './main/more';
+@import './main/title';
+@import './main/block';
+
+@import 'blocks/main';
+@import 'blocks/about';
+@import 'blocks/course';
+@import 'blocks/price';
+
+@import 'main/media';
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.activeBlock {
+    padding: 20px;
+    width: calc(100% - 40px);
+}
+
+.activeList {
+    display: block;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}

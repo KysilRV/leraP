@@ -1,0 +1,115 @@
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: url('../img/bg.png') center center/cover no-repeat;
+    &__info {
+        padding: 30px 50px 0 120px;
+        width: calc(50% - 170px);
+        height: 670px;
+    }
+    &__light {
+        width: 50%;
+        height: 700px;
+        object-fit: contain;
+    }
+    &__nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__logo {
+        width: 56px;
+        height: 56px;
+        margin-right: 60px;
+    }
+    &__item {
+        color: #FFF;
+        font-family: 'Arial Regular';
+        font-size: 16px;
+        margin-right: 20px;
+        transition: .5s;
+        cursor: pointer;
+        &:nth-child(5) {
+            margin-right: 0;
+        }
+        &:hover {
+            color: #00bf19;
+        }
+    }
+    &__burger {
+        display: none;
+        flex-direction: column;
+        transition: .5s;
+        cursor: pointer;
+        &-stick {
+            width: 25px;
+            height: 1px;
+            border: 1px solid #fff;
+            background: #fff;
+            margin-top: 5px;
+            &:nth-child(1) {
+                margin-top: 0;
+            }
+        }
+    }
+    &__title {
+        margin: 0;
+        color: #FFF;
+        font-family: 'Arial Bold';
+        font-size: 54px;
+        margin-top: 130px;
+        span {
+            color: #00BF19;
+        }
+    }
+    &__wrapper {
+        margin-top: 55px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__block {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 100px;
+        &:nth-child(2) {
+            margin-right: 0;
+        }
+        &-white {
+            width: 32px;
+            height: 32px;
+            background: #fff;
+            padding: 8px;
+            margin-right: 15px; 
+        }
+        &-text {
+            color: #FFF;
+            font-family: 'Arial Regular';
+            font-size: 16px;
+        }
+    }
+    &__video {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 45px;
+        cursor: pointer;
+        &-circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+            height: 48px;
+            background: #fff;
+            border-radius: 100%;
+            margin-right: 15px;
+        }
+        &-text {
+            color: #FFF;
+            font-family: 'Arial Black';
+            font-size: 16px;
+        }
+    }
+}
