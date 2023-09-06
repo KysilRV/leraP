@@ -15,6 +15,7 @@
     }
     &__title {
         color: #fff;
+        text-align: left;
     }
     &__block {
         display: flex;
@@ -24,7 +25,7 @@
         padding: 25px 20px;
         margin-top: 50px;
         cursor: pointer;
-        &:nth-child(3) {
+        &:nth-child(2) {
             margin-top: 25px;
             background: #00bf19;
             box-shadow: 0px 4px 15px 5px #00bf19;
@@ -54,15 +55,7 @@
             margin-top: 15px;
         }
         span {
-            position: relative;
-            margin-left: 34px;
-            font-family: 'Arial Bold';
-            img {
-                position: absolute;
-                left: -28px;
-                width: 20px;
-                height: 20px;
-            }
+            color: #00fb19;
         }
     }
     &__socials {

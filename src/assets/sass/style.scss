@@ -1,5 +1,4 @@
 @import './main/fonts';
-@import './main/more';
 @import './main/title';
 @import './main/block';
 
@@ -7,24 +6,46 @@
 @import 'blocks/about';
 @import 'blocks/course';
 @import 'blocks/price';
+@import 'blocks/mark';
+@import 'blocks/footer';
+@import 'blocks/modal';
 
 @import 'main/media';
 
 .container {
+    position: relative;
     width: 1000px;
     margin: 0 auto;
 }
 
-.activeBlock {
-    padding: 20px;
-    width: calc(100% - 40px);
+.fadeIn {
+    opacity: 1;
+    visibility: visible;
+    transition: .3s;
 }
 
-.activeList {
-    display: block;
+.statusMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textMessage {
+    font-family: 'Arial Bold';
+    font-size: 18px;
+    text-align: center;
+    color: #151515;
+}
+
+.failText {
+    font-family: 'Arial Bold';
+    font-size: 18px;
+    text-align: center;
+    color: rgb(136, 0, 0);
 }
 
 body {
+    position: relative;
     margin: 0;
 }
 
